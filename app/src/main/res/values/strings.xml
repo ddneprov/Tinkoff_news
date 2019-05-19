@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Tinkoff_news</string>
+    <string name="url">https://api.tinkoff.ru/v1/news/</string>
+</resources>
