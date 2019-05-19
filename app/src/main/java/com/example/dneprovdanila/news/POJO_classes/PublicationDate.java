@@ -1,9 +1,8 @@
-package com.example.dneprovdanila.news;
+package com.example.dneprovdanila.news.POJO_classes;
 
 public class PublicationDate {
 
-    Long milliseconds;
-
+    private Long milliseconds;
 
     public Long getMilliseconds() {
         return milliseconds;
@@ -12,9 +11,4 @@ public class PublicationDate {
     public void setMilliseconds(Long milliseconds) {
         this.milliseconds = milliseconds;
     }
-
-    public PublicationDate(Long milliseconds) {
-        this.milliseconds = milliseconds;
-    }
-
 }

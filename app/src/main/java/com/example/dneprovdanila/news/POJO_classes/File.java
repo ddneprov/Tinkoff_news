@@ -1,4 +1,4 @@
-package com.example.dneprovdanila.news;
+package com.example.dneprovdanila.news.POJO_classes;
 
 import java.util.List;
 
@@ -6,9 +6,6 @@ public class File {
     private String resultCode;
     private List<Item> payload;
     private String trackingId;
-
-
-
 
 
     public List<Item> getPayload() {
@@ -35,10 +32,6 @@ public class File {
         this.trackingId = trackingId;
     }
 
-    public File(String resultCode, List<Item> items, String trackingId) {
-        this.resultCode = resultCode;
-        this.payload = items;
-        this.trackingId = trackingId;
-    }
+
 
 }
